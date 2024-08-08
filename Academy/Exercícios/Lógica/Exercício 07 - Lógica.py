@@ -1,6 +1,6 @@
 print("     Atividades - Lógica - Polkadot Academy     ")
 print("------------------------------------------------")
-print("     Atividade 7 - Lista de Compras             ")
+print("         Atividade 7 - Lista de Compras         ")
 
 lista = list()
 while True:
