@@ -5,7 +5,7 @@ def cab_logica(tit):
     print("-" *45)
 
 
-cab_logica('Atividade 10 - Encontrando numeros primos')
+cab_logica('Atividade 10 - Encontrando números primos')
 
 
 def encontra_primos(num):
@@ -24,6 +24,7 @@ def primos():
     fim = int(input("Defina o numero final do intervalo: "))
 
     primo = encontra_primos(fim)
+    print("-" * 100)
     print(" -> Números primos no intervalo [{}, {}]: {}".format(inicio, fim, [p for p in primo if inicio <= p <= fim]))
 
 primos()
